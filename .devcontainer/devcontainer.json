@@ -1,9 +1,14 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.245.0/containers/python-3
 {
-    "name": "Python 3",
+    "name": "llms sample code",
     "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
-
+    "hostRequirements": {
+        "cpus": 6,
+        "memory": "8gb",
+        "storage": "30gb",
+        "gpu": true  
+    },
     "features": {
         "ghcr.io/devcontainers/features/azure-cli:latest": {},
         "ghcr.io/azure/azure-dev/azd:latest": {}
