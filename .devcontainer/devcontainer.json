@@ -4,9 +4,9 @@
     "name": "llms sample code",
     "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
     "hostRequirements": {
-        "cpus": 6,
-        "memory": "8gb",
-        "storage": "30gb",
+        "cpus": 4,
+        "memory": "16gb",
+        "storage": "32gb",
         "gpu": true  
     },
     "features": {
