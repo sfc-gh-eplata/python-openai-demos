@@ -6,8 +6,7 @@
     "hostRequirements": {
         "cpus": 4,
         "memory": "16gb",
-        "storage": "32gb",
-        "gpu": true  
+        "storage": "32gb"
     },
     "features": {
         "ghcr.io/devcontainers/features/azure-cli:latest": {},
