@@ -33,6 +33,14 @@ python -m pip install -r requirements.txt
 These scripts can be run against an Azure OpenAI account, an OpenAI.com account, or a local Ollama server,
 depending on the environment variables you set.
 
+0. Install Ollama in devcontianer
+
+    ```bash
+    curl -fsSL https://ollama.com/install.sh | sh
+    ollama server
+    ollama pull llama2
+    ```
+
 1. Copy the `.env.sample` file to a new file called `.env`:
 
     ```bash
